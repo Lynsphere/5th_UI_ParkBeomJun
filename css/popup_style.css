@@ -1,0 +1,37 @@
+/* popup_style */
+.popup.popshow {
+    position: absolute;
+    top: 120px;
+    right: 300px;
+    z-index: 999;
+    background-image: url('../imgs/changup.jpg');
+    background-size: cover;
+    width: 400px;
+    height: 594px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+    display: block;
+}
+.popup {display: none;}
+.popup > .close_box {
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 400px;
+    height: 33px;
+    text-align: right;
+    line-height: 35px;
+    padding: 0 20px; 
+    /* outline: 1px solid red; */
+}
+#btn_close {
+    margin-right: 20px;
+    width: 45px;
+    height: 25px;
+    border: 1px solid #fff;
+    background: rgba(0,0,0,0);
+    color: #fff;
+}
+#btn_close:hover {
+    background: #fff;
+    color: #000;
+}
